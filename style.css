@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1980px;
+  max-height: 1980px;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+  background: #191919;
+  padding: 80px;
+}
+
+.qala {
+  width: 300px;
+  height: 400px;
+  background: #4f77ff;
+  margin: 0 auto;
+  border-radius: 200px 200px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  gap: 15px;
+  padding-top: 15px;
+}
+.dis {
+  width: 60px;
+  height: 60px;
+  background: #191919;
+  margin-right: -15px;
+}
+.dis:nth-child(1) {
+  width: 25%;
+}
+.dis:nth-child(2) {
+  width: 50%;
+}
+.dis:nth-child(3) {
+  width: 75%;
+}
+.dis:nth-child(4) {
+  width: 95%;
+}
+.ikikun {
+  width: 100%;
+  height: 700px;
+  background: #293462;
+  padding: 250px auto;
+  padding-top: 180px;
+}
+.kub {
+  margin: 0px auto;
+  width: 400px;
+  height: 400px;
+  background: #fe5f55;
+  border-radius:200px 200px 80px 80px;
+  overflow: hidden;
+}
+.doira {
+    display: flex;
+    justify-content: center;
+}
+
+.doiratem{
+    width: 180px;
+    height: 180px;
+    background:#fff1c1;
+    border-radius: 2px solid red;
+    border-radius:50%;
+    margin-top: -85px;
+}
+.aylana{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    /* padding: 0 40px; */
+}
+
+.ayalan-item{
+    width: 100px;
+    height: 100px;
+    background: #fff1c1;
+    margin-top: 70px;
+    border-radius:50%;
+}
+
+.chiziq{
+    width: 80px;
+    height: 20px;
+    background:#fff1c1;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+.tortburchak{
+  width: 100%;
+  height: 100vh;
+  background: #6592cf;
+  padding-top:150px ;
+}
+
+.tburchak{
+  width: 400px;
+  height: 400px;
+  background:#243d83;
+  margin: 0px auto;
+  padding: 70px;
+}
+
+.bur {
+  transform: rotate(30deg);
+  width: 250px;
+  height: 250px;
+  background: #6592cf;
+  margin: 0 auto;
+  padding: 50px;
+}
+.burchak{
+  transform: rotate(10deg);
+  width: 150px;
+  height: 150px;
+  background: #243d83;
+  margin: 0 auto;
+}
+
